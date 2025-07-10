@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
-import Sidebar from "../components/Sidebar";
-import ChatContainer from "../components/ChatContainer";
-import RightSideBar from "../components/RightSideBar";
+import Sidebar from "../components/Sidebar.jsx";
+import ChatContainer from "../components/ChatContainer.jsx";
+import RightSidebar from "../components/RightSidebar.jsx";
 import { ChatContext } from "../../context/ChatContext.jsx";
 
 function HomePage() {
@@ -17,7 +17,7 @@ function HomePage() {
       >
         <Sidebar />
         <ChatContainer />
-        <RightSideBar />
+        <RightSidebar />
       </div>
     </div>
   );
